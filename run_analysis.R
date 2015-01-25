@@ -54,4 +54,4 @@ for (i in 4:ncol(measurements)) {
 
 colnames(tidy_means) <- colnames(measurements)
 
-write.table(tidy_means,file="./data/TidyData.txt")
+write.table(tidy_means,file="./data/TidyData.txt", row.names=FALSE)
